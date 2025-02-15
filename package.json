@@ -1,0 +1,13 @@
+{
+  "name": "alldata",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "html-entities": "^2.3.3",
+    "mustache": "^4.2.0",
+    "node-lmdb": "file:node-lmdb-patched.tar.gz"
+  }
+}

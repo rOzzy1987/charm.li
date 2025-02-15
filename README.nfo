@@ -1,0 +1,20 @@
+█▀█ █▀█ █▀▀ █▀█ ▄▀█ ▀█▀ █ █▀█ █▄░█   █▀▀ █░█ ▄▀█ █▀█ █▀▄▀█
+█▄█ █▀▀ ██▄ █▀▄ █▀█ ░█░ █ █▄█ █░▀█   █▄▄ █▀█ █▀█ █▀▄ █░▀░█
+
+                     2 0 2 3
+
+
+        Most car repair manals 1982-2013, formatted for website use. See https://charm.li
+
+
+
+        PREREQUISITES:
+
+        Linux, Node.js and npm, Squashfs. Known to work on Debian Bullseye w/ Node.js 18.
+
+        USAGE:
+
+        1. Create directory: `mkdir ./lmdb-pages`
+        2. Mount squashfs: (as root) `mount -o loop -t squashfs ./lmdb-pages.sqsh ./lmdb-pages`
+        3. Install Node.js dependencies: `npm install`
+        4. Start server: `npm start / 8080` to start on http://localhost:8080

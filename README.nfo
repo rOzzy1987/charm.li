@@ -1,3 +1,41 @@
+       █▀▀▄ █ ▄▀▀  ▄▀▀ █    █▀▄  █ █▄ ▄█ █▀▀▀ █▀▀▄  
+▀▀▀▀▀  █  █ █  ▀▀▄ █   █    █▄▄█ █ █ ▀ █ █▀▀  █▀▀▄  ▀▀▀▀▀▀
+       ▀▀▀  ▀ ▀▀▀   ▀▀ ▀▀▀▀ ▀  ▀ ▀ ▀   ▀ ▀▀▀▀ ▀  ▀
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█ Please note that I am not the creator of this software █
+█                                                        █
+█ The original author shared this source code online     █
+█ for free, while the site was still available           █
+█                                                        █
+█ My intention is to bring it to a working state for     █
+█ everyone to enjoy/modify/fix whatever                  █
+█                                                        █
+█ This source code only contains the code for running    █
+█ the server, no data at all. Gathering data for this    █
+█ application is the user's responsibility.              █
+█                                                        █
+█ You can find the original readme untouched at the end  █
+█ of this file                                           █
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+
+Prerequisites:
+  - basically any linux distro
+  - nodejs with npm
+  - squashfs
+
+Install & Run:
+    1: run "./start.sh" (may or may not require sudo)
+    2: open "http://localhost:8080"
+  OR
+    1: run "npm i" from repo root
+    2: run "node-gyp configure" from "node_modules/node-lmdb"
+    3: run "node-gyp build" from "node_modules/node-lmdb"
+    4: follow the original guide at the bottom of this file 
+      
+Tested on Ubuntu 24.04 LTS
+
+============ Original readme content from here ===========
+
 █▀█ █▀█ █▀▀ █▀█ ▄▀█ ▀█▀ █ █▀█ █▄░█   █▀▀ █░█ ▄▀█ █▀█ █▀▄▀█
 █▄█ █▀▀ ██▄ █▀▄ █▀█ ░█░ █ █▄█ █░▀█   █▄▄ █▀█ █▀█ █▀▄ █░▀░█
 
